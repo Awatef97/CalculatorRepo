@@ -15,10 +15,22 @@ public class Calculator {
      * @param args the command line arguments
      */
     //awtef start
-    
+    public static float add(float first_num,float second_num){
+       return first_num+second_num; 
+    }
     //awatef end
     //ziad start
+    public static float subtract(float firstNum,float secondNum)
+    {
+        float result = firstNum - secondNum ;
+        return result;
+    }
     
+    public static float multiply(float firstNum,float secondNum)
+    {
+        float result = firstNum * secondNum ;
+        return result;
+    } 
     //ziad end
     //wagdy start
     public static void multi(int num1, int num2) {
@@ -30,10 +42,11 @@ public class Calculator {
         // TODO code application logic here
         
         //awtef start
-        
+        System.out.println(add(3.3f, 4.7f));
         //awatef end
         //ziad start
-        
+        System.out.println(subtract(5f,2f));
+        System.out.println(multiply(2f,2f));
         //ziad end
         //wagdy start
         multi(2,3);
