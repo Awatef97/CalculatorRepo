@@ -18,7 +18,17 @@ public class Calculator {
     
     //awatef end
     //ziad start
+    public static float subtract(float firstNum,float secondNum)
+    {
+        float result = firstNum - secondNum ;
+        return result;
+    }
     
+    public static float multiply(float firstNum,float secondNum)
+    {
+        float result = firstNum * secondNum ;
+        return result;
+    } 
     //ziad end
     //wagdy start
     
@@ -31,7 +41,8 @@ public class Calculator {
         
         //awatef end
         //ziad start
-        
+        System.out.println(subtract(5f,2f));
+        System.out.println(multiply(2f,2f));
         //ziad end
         //wagdy start
         
