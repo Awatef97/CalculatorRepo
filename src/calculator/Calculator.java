@@ -15,7 +15,9 @@ public class Calculator {
      * @param args the command line arguments
      */
     //awtef start
-    
+    public static float add(float first_num,float second_num){
+       return first_num+second_num; 
+    }
     //awatef end
     //ziad start
     public static float subtract(float firstNum,float secondNum)
@@ -38,7 +40,7 @@ public class Calculator {
         // TODO code application logic here
         
         //awtef start
-        
+        System.out.println(add(3.3f, 4.7f));
         //awatef end
         //ziad start
         System.out.println(subtract(5f,2f));
